@@ -16,6 +16,5 @@ public class Main {
         obj.meth();
         B obj1=new B();
         obj1.meth();
-    }
-
+    }
 }
