@@ -15,9 +15,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        B objB = new B();
-        System.out.println(((A) objB).meth()); // Calls method meth of class A using object of class B
-
-        System.out.println(objB.meth()); // Calls overridden method meth in class B
+        B obj = new B();
+        obj.meth();
+        B obj1=new B();
+        obj1.meth();
     }
 }
